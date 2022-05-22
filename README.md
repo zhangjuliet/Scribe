@@ -14,7 +14,13 @@ cd scribe
 ```
 npm install
 ```
-3. Run the app!
+3. Replace process.env.REACT_APP_AAI_API_KEY in App.js with your AssemblyAI API key.
+```
+...
+  authorization: <your_API_key>
+...
+```
+4. Run the app!
 ```
 npm start
 ```
